@@ -3,3 +3,116 @@
 HalfWit coffee roaster store
 
 */
+body {
+    font-family: 'Roboto Slab', serif;
+}
+
+header {
+    background-image: url('/images/background.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding-top: 150px;
+    padding-bottom: 150px;
+}
+
+.container {
+    width: 900px;
+    margin: auto;
+    font-size: 0;
+}
+
+footer {
+    background: #D4F1FF;
+}
+
+.twocol {
+    width: 50%;
+    display: inline-block;
+    font-size: 1.2rem;
+    vertical-align: top;
+}
+
+.fourcol {
+    width: 900px;
+    margin: auto;
+    padding: 25px;
+}
+
+.coffee {
+    display: inline-block;
+    /*text-align: right;*/
+    padding: 10px 50px;
+}
+
+.coffee img {
+    display: block;
+    margin: 0 auto 15px;
+}
+
+.altcoffee {
+    display: inline-block;
+    width: 24%;
+    padding-bottom: 50px;
+    line-height: 1.5rem;
+}
+
+h1, h2 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+    display: block;
+    width: 900px;
+    font-size: 5.5rem;
+    text-align: center;
+    color: white;
+    margin: 0 auto 1.5rem;
+}
+
+h2 {
+    font-size: 1.5rem;
+    margin-bottom: .5rem;
+    /*text-align: center;*/
+}
+
+h3 {
+    font-family: 'Roboto Slab';
+    line-height: 1.8rem;
+}
+
+footer h2 {
+    font-size: 1.5rem;
+    text-align: left;
+}
+
+footer h3 {
+    font-style: italic;
+    margin-bottom: 1rem;
+}
+
+p {
+    padding: 25px;
+    line-height: 2rem;
+}
+
+blockquote {
+    text-align: center;
+    color: white;
+    font-style: italic;
+    font-size: 1.8rem;
+    line-height: 2.5rem;
+}
+
+a {
+    color: #446C7F;
+    font-weight: bold;
+    font-family: 'Montserrat';
+    font-size: 1.2rem;
+    text-decoration: none;
+    border-bottom: 2px solid #446C7F;
+}
+
+a:hover {
+    color: #6A787F;
+}
