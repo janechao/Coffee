@@ -22,8 +22,27 @@ header {
     font-size: 0;
 }
 
+p:first-child:first-letter { 
+    float: left; 
+    color: #666666; 
+    font-size: 75px; 
+    line-height: 60px; 
+    padding-top: 4px; 
+    padding-right: 8px; 
+    padding-left: 3px; 
+    }
+
+.twocolp {
+    width: 50%;
+    display: inline-block;
+    font-size: 1.2rem;
+    vertical-align: top;
+    text-align: left;
+}
+
 footer {
     background: #D4F1FF;
+    margin-top: 20px;
 }
 
 .twocol {
@@ -112,6 +131,7 @@ a {
     font-size: 1.2rem;
     text-decoration: none;
     border-bottom: 2px solid #446C7F;
+
 }
 
 a:hover {
