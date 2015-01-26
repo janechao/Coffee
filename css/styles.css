@@ -22,14 +22,14 @@ header {
     font-size: 0;
 }
 
-p:first-child:first-letter { 
-    float: left; 
-    color: #666666; 
-    font-size: 75px; 
-    line-height: 60px; 
-    padding-top: 4px; 
-    padding-right: 8px; 
-    padding-left: 3px; 
+p:first-child:first-letter {
+    float: left;
+    color: #666666;
+    font-size: 75px;
+    line-height: 60px;
+    padding-top: 4px;
+    padding-right: 8px;
+    padding-left: 3px;
     }
 
 .twocolp {
